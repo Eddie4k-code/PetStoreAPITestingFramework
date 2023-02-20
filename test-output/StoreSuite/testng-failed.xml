@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [StoreSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="StoreTests(failed)">
+    <classes>
+      <class name="testCases.StoreTests">
+        <methods>
+          <include name="test_getStoreOrder"/>
+          <include name="reportTeardown"/>
+          <include name="test_addStoreOrder"/>
+          <include name="test_getStoreInventory"/>
+          <include name="test_deleteStoreOrder"/>
+        </methods>
+      </class> <!-- testCases.StoreTests -->
+    </classes>
+  </test> <!-- StoreTests(failed) -->
+</suite> <!-- Failed suite [StoreSuite] -->

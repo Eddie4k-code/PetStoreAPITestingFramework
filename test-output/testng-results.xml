@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-20T14:51:13 EST" name="StoreSuite" finished-at="2023-02-20T14:51:17 EST" duration-ms="4344">
+    <groups>
+    </groups>
+    <test started-at="2023-02-20T14:51:13 EST" name="StoreTests" finished-at="2023-02-20T14:51:17 EST" duration-ms="4344">
+      <class name="testCases.StoreTests">
+        <test-method signature="test_addStoreOrder(java.util.HashMap)[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:13 EST" name="test_addStoreOrder" data-provider="addStoreOrder" finished-at="2023-02-20T14:51:15 EST" duration-ms="1793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=AddOrder1, petId=1, quantity=0, Execute=Yes, ExpectedResponse=200, id=1, shipDate=2023-02-20T18:04:57.394Z, complete=true, status=placed}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addStoreOrder -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:15 EST" name="reportTeardown" finished-at="2023-02-20T14:51:15 EST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+        <test-method signature="test_addStoreOrder(java.util.HashMap)[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:15 EST" name="test_addStoreOrder" data-provider="addStoreOrder" finished-at="2023-02-20T14:51:15 EST" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=AddOrder2, petId=2, quantity=0, Execute=Yes, ExpectedResponse=200, id=2, shipDate=2023-02-20T18:04:57.394Z, complete=false, status=placed}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_addStoreOrder -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:15 EST" name="reportTeardown" finished-at="2023-02-20T14:51:15 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+        <test-method signature="test_getStoreInventory(java.util.Map)[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:15 EST" name="test_getStoreInventory" data-provider="getStoreInv" finished-at="2023-02-20T14:51:16 EST" duration-ms="219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=Test1, Sold=14, Execute=Yes, ExpectedResponse=200, Available=333, String=638, Pending=13}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getStoreInventory -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:16 EST" name="reportTeardown" finished-at="2023-02-20T14:51:16 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+        <test-method signature="test_getStoreOrder(java.util.HashMap)[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:16 EST" name="test_getStoreOrder" data-provider="getStoreOrder" finished-at="2023-02-20T14:51:16 EST" depends-on-methods="testCases.StoreTests.test_addStoreOrder" duration-ms="459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=AddOrder1, petId=1, quantity=0, Execute=Yes, ExpectedResponse=200, id=1, shipDate=2023-02-20T18:04:57.394Z, complete=true, status=placed}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getStoreOrder -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:16 EST" name="reportTeardown" finished-at="2023-02-20T14:51:16 EST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+        <test-method signature="test_getStoreOrder(java.util.HashMap)[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:16 EST" name="test_getStoreOrder" data-provider="getStoreOrder" finished-at="2023-02-20T14:51:16 EST" depends-on-methods="testCases.StoreTests.test_addStoreOrder" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=AddOrder2, petId=2, quantity=0, Execute=Yes, ExpectedResponse=200, id=2, shipDate=2023-02-20T18:04:57.394Z, complete=false, status=placed}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getStoreOrder -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:16 EST" name="reportTeardown" finished-at="2023-02-20T14:51:16 EST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+        <test-method signature="test_deleteStoreOrder(java.util.HashMap)[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:16 EST" name="test_deleteStoreOrder" data-provider="deleteStoreOrder" finished-at="2023-02-20T14:51:17 EST" depends-on-methods="testCases.StoreTests.test_getStoreOrder" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=DeleteOrder1, id=1, Execute=Yes, ExpectedResponse=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deleteStoreOrder -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:17 EST" name="reportTeardown" finished-at="2023-02-20T14:51:17 EST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+        <test-method signature="test_deleteStoreOrder(java.util.HashMap)[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:17 EST" name="test_deleteStoreOrder" data-provider="deleteStoreOrder" finished-at="2023-02-20T14:51:17 EST" depends-on-methods="testCases.StoreTests.test_getStoreOrder" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestName=DeleteOrder2, id=2, Execute=Yes, ExpectedResponse=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_deleteStoreOrder -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:testCases.StoreTests@fa36558]" started-at="2023-02-20T14:51:17 EST" name="reportTeardown" finished-at="2023-02-20T14:51:17 EST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- testCases.StoreTests -->
+    </test> <!-- StoreTests -->
+  </suite> <!-- StoreSuite -->
+</testng-results>
